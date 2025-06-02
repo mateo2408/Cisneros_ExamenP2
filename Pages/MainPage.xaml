@@ -2,8 +2,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cisneros_ExamenP2.MainPage">
     <StackLayout Padding="30" Spacing="20">
-        <Label Text="Mateo Cisneros" FontSize="32" HorizontalOptions="Center"/>
-        <Image Source="profile.png" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center"/>
+        <Image Source="Images/star_wars_logo.png" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center"/>
+        <Label Text="Bienvenido a la" FontSize="34" HorizontalOptions="Center"/>
+        <Label Text="Aplicacion de" FontSize="32" HorizontalOptions="Center"/>
+        <Label Text="Mateo Cisneros" FontSize="30" HorizontalOptions="Center"/>
         <Button Text="Chistes" Clicked="OnChistesClicked"/>
         <Button Text="About" Clicked="OnAboutClicked"/>
     </StackLayout>
