@@ -1,0 +1,10 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cisneros_ExamenP2.MainPage">
+    <StackLayout Padding="30" Spacing="20">
+        <Label Text="Mateo Cisneros" FontSize="32" HorizontalOptions="Center"/>
+        <Image Source="profile.png" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center"/>
+        <Button Text="Chistes" Clicked="OnChistesClicked"/>
+        <Button Text="About" Clicked="OnAboutClicked"/>
+    </StackLayout>
+</ContentPage>
