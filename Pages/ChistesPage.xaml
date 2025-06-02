@@ -8,9 +8,11 @@
                FontSize="20"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"/>
-        <Button Text="Otro chiste"
-                AbsoluteLayout.LayoutBounds="0.5,1,0.8,60"
-                AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional"
-                Clicked="OnOtroChisteClicked"/>
+        <Button 
+            x:Name="OtroChisteButton"
+            Text="Otro chiste"
+            AbsoluteLayout.LayoutBounds="0.5,1,0.8,60"
+            AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional"
+            Clicked="OnOtroChisteClicked"/>
     </AbsoluteLayout>
 </ContentPage>

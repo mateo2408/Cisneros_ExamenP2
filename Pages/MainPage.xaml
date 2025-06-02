@@ -6,7 +6,11 @@
         <Label Text="Bienvenido a la" FontSize="34" HorizontalOptions="Center"/>
         <Label Text="Aplicacion de" FontSize="32" HorizontalOptions="Center"/>
         <Label Text="Mateo Cisneros" FontSize="30" HorizontalOptions="Center"/>
-        <Button Text="Chistes" Clicked="OnChistesClicked"/>
-        <Button Text="About" Clicked="OnAboutClicked"/>
+        <Button 
+            x:Name="ChistesButton"
+            Text="Chistes" Clicked="OnChistesClicked"/>
+        <Button 
+            x:Name="AboutButton"
+            Text="About" Clicked="OnAboutClicked"/>
     </StackLayout>
 </ContentPage>
