@@ -1,9 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Cisneros_ExamenP2.Pages.ChistesPage">
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
+             x:Class="Cisneros_ExamenP2.ChistesPage">
+    <AbsoluteLayout>
+        <Label x:Name="JokeLabel"
+               AbsoluteLayout.LayoutBounds="0.5,0.4,0.8,0.2"
+               AbsoluteLayout.LayoutFlags="All"
+               FontSize="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+        <Button Text="Otro chiste"
+                AbsoluteLayout.LayoutBounds="0.5,1,0.8,60"
+                AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional"
+                Clicked="OnOtroChisteClicked"/>
+    </AbsoluteLayout>
 </ContentPage>
