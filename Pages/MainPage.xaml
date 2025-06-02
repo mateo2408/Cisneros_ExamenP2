@@ -3,10 +3,10 @@
              x:Class="Cisneros_ExamenP2.MainPage"
              Title="MainPage">
     <StackLayout Padding="30" Spacing="20">
-        <Image Source="star_wars_logo.png" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center"/>
         <Label Text="Bienvenido a la" FontSize="34" HorizontalOptions="Center"/>
         <Label Text="Aplicacion de" FontSize="32" HorizontalOptions="Center"/>
         <Label Text="Mateo Cisneros" FontSize="30" HorizontalOptions="Center"/>
+        <Image Source="star_wars_logo.png" HeightRequest="250" WidthRequest="250" HorizontalOptions="Center"/>
         <Button 
             x:Name="ChistesButton"
             Text="Chistes" Clicked="OnChistesClicked"/>
