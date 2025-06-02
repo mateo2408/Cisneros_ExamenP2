@@ -1,15 +1,17 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Maui.Controls;
 
-namespace Cisneros_ExamenP2.Pages;
-
-public partial class AboutPage : ContentPage
+namespace Cisneros_ExamenP2.Pages
 {
-    public AboutPage()
+    public partial class AboutPage : ContentPage
     {
-        InitializeComponent();
+        public string CurrentDate { get; set; }
+
+        public AboutPage()
+        {
+            InitializeComponent();
+            CurrentDate = DateTime.Now.ToString("dd/MM/yyyy");
+            BindingContext = this;
+        }
     }
 }
