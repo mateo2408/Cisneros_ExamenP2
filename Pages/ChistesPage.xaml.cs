@@ -21,7 +21,7 @@ namespace Cisneros_ExamenP2.Pages
                 var handler = new HttpClientHandler();
                 handler.AutomaticDecompression = System.Net.DecompressionMethods.All;
                 using var client = new HttpClient(handler);
-                client.DefaultRequestHeaders.ConnectionClose = true; // Fuerza HTTP/1.1
+                client.DefaultRequestHeaders.ConnectionClose = true;
                 var response = await client.GetAsync("https://official-joke-api.appspot.com/random_joke");
                 if (!response.IsSuccessStatusCode)
                 {
