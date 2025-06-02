@@ -1,4 +1,6 @@
-﻿namespace Cisneros_ExamenP2;
+﻿using Cisneros_ExamenP2.Pages;
+
+namespace Cisneros_ExamenP2;
 
 public partial class MainPage : ContentPage
 {

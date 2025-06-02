@@ -1,6 +1,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Cisneros_ExamenP2.ChistesPage">
+             x:Class="Cisneros_ExamenP2.Pages.ChistesPage">
     <AbsoluteLayout>
         <Label x:Name="JokeLabel"
                AbsoluteLayout.LayoutBounds="0.5,0.4,0.8,0.2"
